@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+        
+        .row.content {
+            height: 1500px
+        }
+        /* Set gray background color and 100% height */
+        
+        .topnav {
+            background-color: #FFC0CB;
+            overflow: hidden;
+        }
+        /* Style the links inside the navigation bar */
+        
+        .topnav a {
+            float: right;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        /* Change the color of links on hover */
+        
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        /* Add a color to the active/current link */
+        
+        .topnav a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        
+        .sidenav {
+            background-color: #FFC0CB;
+            height: 100%;
+        }
+        /* Set black background color, white text and some padding */
+        
+        footer {
+            background-color: #000000;
+            color: white;
+            padding: 15px;
+        }
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <img src="images/icon.JPG" alt="icon" width="50" height="50">
+        <a href="#name">FULLNAME</a>
+        <a href="#index">INDEX NUMBER</a>
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-3 sidenav">
+                <h4>AAMUSTED STUDENTS PORTAL</h4>
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="active">
+                        <a href="#section1">Dashborad</a>
+                    </li>
+                    <li><a href="#section2">Students Information</a></li>
+                    <li>
+                        <a href="#section3">Number of Appointment Available</a>
+                    </li>
+                    <li>
+                        <a href="#section4">Chat</a>
+                    </li>
+                    <li>
+                        <a href="#section5">Settings</a>
+                    </li>
+                </ul><br>
+
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <footer class="container-fluid">
+        <p>Footer </p>
+    </footer>
+
+</body>
+
+</html>
